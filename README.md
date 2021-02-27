@@ -10,10 +10,6 @@ Fortunately, you've been learning how to program smart contracts with Solidity! 
 
 * Pay your associate-level employees quickly and easily.
 
-* Distribute profits to different tiers of employees.
-
-* Distribute company shares for employees in a "deferred equity incentive plan" automatically.
-
 # Instructions
 
 * **Level One** is an AssociateProfitSplitter contract. This will accept ether into the contract, and divide it evenly among associate-level employees. This will allow the human resources department to pay employees quickly and efficiently.
