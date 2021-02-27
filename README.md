@@ -42,7 +42,7 @@ While developing and testing your contract, use the Ganache development chain, a
 In the Deploy tab in Remix, deploy the contract to your local Ganache chain by connecting to Injected Web3 and ensuring MetaMask is pointed to localhost:8545.
 
 ![Ganache](Images/ganache.png)
-![Connecting](Images/connecting.png)
+![Connecting](Images/Connecting.png)
 
 You will need to fill in the constructor parameters with your designated employee addresses.
 
