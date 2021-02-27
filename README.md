@@ -36,6 +36,7 @@ While developing and testing your contract, use the Ganache development chain, a
 
 5. Create a fallback function using function() external payable, and call the deposit function from within it. This will ensure that the logic in deposit executes if ether is sent directly to the contract. This is important to prevent ether from being locked in the contract, since we don't have a withdraw function in this use case.
 
+[CONTRACT CODE](https://github.com/rodrigocelso1/Looks-like-we-ve-made-our-first-contract-/blob/master/AssociateProfitSplitter.sol)
 
 ###   Test the contract
 
