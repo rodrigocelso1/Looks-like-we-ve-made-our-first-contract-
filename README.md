@@ -26,13 +26,13 @@ While developing and testing your contract, use the Ganache development chain, a
 
 ### Level One: The AssociateProfitSplitter Contract
 
-1. At the top of your contract, you will need to define the public variables;
+1. Define public variables;
 
 2. Create a constructor function;
 
 3. Within the constructor, set the employee addresses to equal the parameter values. This will allow you to avoid hardcoding the employee addresses.
 
-4. Next, create the following functions: BALANCE AND DEPOSI;
+4. Next, create the following functions: BALANCE AND DEPOSIT;
 
 5. Create a fallback function using function() external payable, and call the deposit function from within it. This will ensure that the logic in deposit executes if ether is sent directly to the contract. This is important to prevent ether from being locked in the contract, since we don't have a withdraw function in this use case.
 
@@ -41,9 +41,18 @@ While developing and testing your contract, use the Ganache development chain, a
 
 In the Deploy tab in Remix, deploy the contract to your local Ganache chain by connecting to Injected Web3 and ensuring MetaMask is pointed to localhost:8545.
 
+![Ganache](Images/ganache.png)
+![Connecting](Images/connecting.png)
+
 You will need to fill in the constructor parameters with your designated employee addresses.
 
+![Accounts](Images/accounts.png)
+![Deploy](Images/remix-deploy.png)
+
 Test the deposit function by sending various values. Keep an eye on the employee balances as you send different amounts of ether to the contract and ensure the logic is executing properly.
+
+![Test](Images/remix-test.png)
+![Deposit](Images/remix-deposit.png)
 
 # Resources
 Building the next financial revolution isn't easy, but we need your help. Don't be intimidated by the semicolons!
@@ -59,6 +68,3 @@ Another tutorial is available at [EthereumDev.io](https://ethereumdev.io/)
 
 If you enjoy building games, here's an excellent tutorial called [CryptoZombies](https://cryptozombies.io/)
 
-# Submission
-
-Explains how each of the contracts work and what the motivation for each of the contracts is. Also, please provide screenshots to illustrate the functionality (e.g. how you send transactions, how the transferred amount is then distributed by each of the contracts, and how the timelock functionality can be tested with the fastforward function). Alternatively, you can also record your interactions with the contract as a gif (e.g. https://www.screentogif.com/)
